@@ -1,3 +1,12 @@
+Changes made:
+1) Rather than using getters and setters for every variable, he can tell the point class to do the functionality. This way Point class has both state and behaviour.
+
+If the class only has data members and no behaviour, it just becomes a data holder.
+Using getters and setters is not ideal because it gives away how the data members are being implemented inside the class and also frequent changes to state(through setter function) can make the code inconsistent.
+
+2)Removing DistanceAndCalculator class and calling calculateDistance and calculateDirection Function directly. 
+
+
 So Shivam had just learned about OOP. He had written a program before that did two things,
 - Find distance between two points
 - Find direction (angle) between two points in Radians.
